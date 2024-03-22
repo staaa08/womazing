@@ -1,0 +1,193 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  margin: 0 auto;
+  width: 1370px;
+}
+nav{
+  margin-top: 2%;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 3%;
+}
+.nav-info{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+}
+/* .bag{
+  margin-left: 3rem;
+} */
+.nav-links{
+  display: flex;
+  gap: 75px;
+  font-family: "Raleway", sans-serif;
+
+}
+.navLink{
+  text-decoration: none;
+  color: black;
+}
+.dgm{
+  background-color: #6E9C9F;
+  color: white;
+  font-size: 17px;
+  padding: 22px, 50px, 22px, 50px;
+  border: none;
+  font-family: "Raleway", sans-serif;
+  width: 243px;
+  height: 68px;
+}
+.dgm-2{
+  width: 67px;
+  height: 67px;
+  border: none;
+  background-color: #6E9C9F1A;
+}
+.btns{
+  display: flex;
+}
+.h1{
+  font-size: 55px;
+  margin-top: 10rem;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+}
+.text{
+  font-size: 22px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-family: "Raleway", sans-serif;
+}
+.kadinlar{
+  padding-left: 50rem;
+  margin-top: 5rem;
+  position: absolute;
+}
+.kadin3{
+  position: absolute;
+  margin-top: 8rem;
+  margin-left: 20rem;
+}
+.kadin1{
+  position: absolute;
+  margin-left: -5rem;
+  margin-top: 25rem;
+}
+.kadin2{
+  position: absolute;
+  margin-left: 3rem;
+}
+.buttons{
+  margin: 10px;
+  width: 223px;
+  height: 62px;
+  background-color: white;
+  border: solid black 1px;
+  transition: 0.3s;
+}
+.buttons:hover{
+  background-color: black;
+  color: white;
+}
+.btn{
+  background-color: white;
+  border: solid black 1px;
+  transition: 0.3s;
+  width: 100px;
+  height: 39px;
+  border-radius: 0%;  
+}
+.btn:hover{
+  background-color: black;
+  color: white;
+}
+.btn-2{
+  background-color: white;
+  border: solid black 1px;
+  transition: 0.3s;
+  width: 100px;
+  height: 39px;
+}
+.btn-2:hover{
+  background-color: black;
+  color: white;
+}
+.categories{
+  margin-bottom: 10rem;
+  margin-top: 7rem;
+  font-family: "Raleway", sans-serif;
+}
+.categories h1{
+  margin-bottom: 5rem;
+}
+.contacts{
+  font-family: "Raleway", sans-serif;
+}
+.bilgiler{
+  display: flex;
+  gap: 100px;
+  margin-top: 7rem;
+}
+.p{
+  border: 1px solid;
+  width: 350px;
+}
+.p2{
+  border: 1px solid;
+  width: 443px;
+  margin-top: 7rem;
+}
+.footer{
+  margin-top: 15rem;
+  background-color: #F1EADC;
+  display: flex;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.skz{
+  margin-left: 35rem;
+  /* padding-top: 10rem; */
+}
+.enha{
+  margin-left: 10rem;
+}
+.bise{
+  margin-top: 6rem;
+}
+.contacts h1{
+  margin-top: 7rem;
+  margin-bottom: 5rem;
+}
+.img1{
+  display: flex;
+}
+.about{
+  font-family: "Raleway", sans-serif;
+}
+.about h1{
+  margin-top: 7rem;
+  margin-bottom: 5rem;
+}
+.yazilar{
+  margin-left: 7rem;
+  padding-top: 7rem;
+}
+.img2{
+  display: flex;
+  margin-top: 6rem;
+}
+.yazi{
+  margin-top: 4rem;
+}
+.img2 img{
+  margin-left: 10rem;
+}
+.about button{
+  margin-top: 8.3rem;
+  margin-left: 26rem;
+}
